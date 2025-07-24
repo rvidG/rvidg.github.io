@@ -1,0 +1,58 @@
+body {
+  background-color: #111;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;  
+  padding-top: 2rem;
+}
+
+.whoami {
+  box-shadow: 0 0 15px 0.1px #10b980;
+  display: inline-block;
+  font-size: 5vw;
+  font-weight: bold;
+  color: #10b980;
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+  animation: 
+    blink-animation 0.25s steps(2, start) 2 0s,
+    shrink 2s ease-in-out forwards 1.65s;
+  }
+
+@keyframes shrink {
+  from {
+    transform:scale(1);
+  }
+  to {
+    transform:scale(0.5);
+  }
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.whoami span {
+  background: linear-gradient(to right, #10b980 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fillRight 1s ease-in-out forwards;
+  animation-delay: 0.55s;
+}
+
+@keyframes fillRight {
+  from {
+    background-position: right;
+  }
+  to {
+    background-position: left;
+  }
+}
+
