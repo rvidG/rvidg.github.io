@@ -1,109 +1,79 @@
-body{
-    background-color: #222222;
-    color: rgb(240, 240, 240);
-    position: relative;
-    font-family: Arial, sans-serif;
-    
-    button{
-        background-color: rgb(90, 100, 240);
-        color: rgb(240, 240, 240);
-        border: #000000;
-        border-radius: 4%;
-        padding: 2vw 1.5vw;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 2vw;
-        cursor: pointer;
-        -webkit-transition-duration: 0.4s; /* Safari */
-        transition-duration: 0.4s;
-        box-shadow: 0 0.5vw 0.5vw 0.5vw rgb(90, 100, 240),0 0.5vw 0.5vw 0.5vw rgb(90, 100, 240);
-    }
-    button:hover{
-        background-color: rgb(25, 35, 180);
-        color: rgb(221, 221, 221);
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.25),0 17px 50px 0 rgba(0,0,0,0.20);
-    }
-    button:active{
-        background-color: rgb(50, 60, 200);
-        box-shadow: 0 12px 16px 0 rgba(129, 0, 0, 0.25),0 17px 50px 0 rgba(104, 0, 0, 0.2);
-    }
-    button:focus{
-        background-color: #04AA6D;
-        box-shadow: 0 10px #666;
-        transform: translateY(4px);
-    }
-    button:disabled{
-        background-color: rgba(90, 100, 240, 0.253);
-        color: rgb(140, 140, 140);
-        cursor: not-allowed;
-    }
+body {
+  background-color: #222222;
+  color: rgb(240, 240, 240);
+  position: relative;
+  font-family: Arial, sans-serif;
 
+  ul {
+    background-color: rgba(0, 0, 0, 0.165);
+    border-radius: 1em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
 
-    ul {
-        background-color: rgba(0, 0, 0, 0.165);
-        border-radius: 1em;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        display: flex;
-        -webkit-transition-duration: 0.4s;
-        transition-duration: 0.4s;
-    }
-    
-    li {
-        float: left;
-    }
-    
-    li a, .dropbtn {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        padding: 14px 16px;
-        font-size: 1.2vw;
-        border: none;
-        cursor: default;
-        -webkit-transition-duration: 0.4s; /* Safari */
-        transition-duration: 0.4s;
-    }
-    
-    li a:hover, .dropdown:hover .dropbtn {  
-        background-image: radial-gradient(rgb(34, 34, 60), #222222);
-    }
-    
-    li.dropdown {
-        display: inline-block;
-    }
-    
-    ul li:last-child {
-        margin-left: auto;
-    }
-      
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-      
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-    }
-      
-    .dropdown-content a:hover {
-        background-color: #f1f1f1;
-        background-image: none;
-    }
-      
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
+  li {
+    float: left;
+  }
+
+  li a,
+  .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 1.2vw;
+    border: none;
+    cursor: default;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  li a:hover,
+  .dropdown:hover .dropbtn {
+    background-image: radial-gradient(rgb(34, 34, 60), #222222);
+    cursor: pointer;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+
+  ul li:last-child {
+    margin-left: auto;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.165);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a:last-child {
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
 }
