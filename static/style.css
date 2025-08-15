@@ -46,6 +46,8 @@ body {
   }
   
   ul li:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     margin-right: auto;
     float: left;
   }
