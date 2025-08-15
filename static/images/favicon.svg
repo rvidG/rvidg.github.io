@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+    text {
+      font-family: 'Roboto', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 38px;
+      fill: #222;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+  </style>
+  <text x="48" y="48">@</text>
+</svg>
