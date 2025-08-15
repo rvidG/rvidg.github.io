@@ -17,7 +17,7 @@ body {
   }
 
   li {
-    float: left;
+  
   }
 
   li a,
@@ -44,9 +44,15 @@ body {
   li.dropdown {
     display: inline-block;
   }
+  
+  ul li:first-child {
+    margin-right: auto;
+    float: left;
+  }
 
   ul li:last-child {
     margin-left: auto;
+    float: right;
   }
 
   .dropdown-content {
