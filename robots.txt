@@ -1,0 +1,3 @@
+disallow /static/
+disallow 404.html
+
