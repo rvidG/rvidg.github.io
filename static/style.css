@@ -4,3 +4,7 @@ body {
   position: relative;
   font-family: Arial, sans-serif;
 }
+
+a {
+  color: #FFA500;
+}
