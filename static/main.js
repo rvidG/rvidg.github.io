@@ -26,6 +26,6 @@ window.onload = function () {
     console.log("User is not on a mobile device");
     device = "pc";
   }
-  loadCSS("/static/" + device + "/navbar.css");
+  loadCSS("/static/" + device + "/style.css");
   loadHTML("/static/" + device + "/navbar.html", "navbar-container");
 };

@@ -1,6 +1,6 @@
 ul {
     background-color: rgba(0, 0, 0, 0.165);
-    border-radius: 1em;
+    border-radius: 1.5rem;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ ul {
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
-    font-size: 1.2vw;
+    font-size: 1rem;
     border: none;
     cursor: default;
     -webkit-transition-duration: 0.4s;
@@ -74,3 +74,13 @@ ul {
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
   }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 60em;
+  width: 100%;
+  margin: 0 auto;
+}
