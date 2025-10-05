@@ -13,12 +13,30 @@
     <title>rvid | Portfolio - Cybersecurity, Linux, programming</title>
     <link rel="canonical" href="/">
     <link rel="stylesheet" href="/static/style.css">
-    <script src="/static/main.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
   </head>
   <body>
-    <div id="navbar-container"></div>
+    <nav>
+      <div class="pc-navbar">
+      <ul>
+        <li>
+          <a title="Go to start page" href="/">@rvid.eu</a>
+        </li>
+        <li class="dropdown">
+          <a class="dropbtn" href="/projects">Projects</a>
+          <div class="dropdown-content">
+            <a href="/projects/markdown-build">Markdown build tool</a>
+          </div>
+        </li>
+        <li>
+          <a href="/blogs/">Blogs</a>
+        </li>
+        <li>
+          <a href="/contact">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
     <main>
       <header>
         <h1>Who am I? - my portfolio</h1>
@@ -26,5 +44,8 @@
         <p>I'm a Linux enthusiast developing scripts and small programs for my own use. After two years of hands on experience, I've become fairly good at using it to my advantage. I have created smaller scripts and applications, prototypes of peripherals and more. You can check out some of my <a href="/projects/">tech-related projects</a>, and some of my <a href="/blogs/">achievements</a>.</p>
       </header>
     </main>
+    <noscript>
+      <p style="color: grey; text-align: center;">Goodbye js!</p>
+    </noscript>
   </body>
 </html>
