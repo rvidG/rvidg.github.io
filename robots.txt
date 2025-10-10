@@ -1,3 +1,4 @@
-Disallow: /static/
-Disallow: 404.html
+User-agent: *
+Disallow: /404.html
+Allow: /
 
