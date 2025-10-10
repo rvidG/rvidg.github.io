@@ -11,7 +11,7 @@
     <meta property="og:description" content="Ways to contact me, including discord, mail, matrix (WIP) and more.">
     <!--<meta property="og:image" content="https://www.example.com/og-image.jpg">-->
     <title>rvid | Contact</title>
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="https://rvid.eu/contact">
     <link rel="stylesheet" href="/static/style.css">
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
   </head>
