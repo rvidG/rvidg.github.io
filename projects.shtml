@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Some of my projects. This page is undergoing development.">
+    <meta name="keywords" content="programming, portfolio, scripting, projects, young, cyber, not finished, cybersecurity, pentesting, penetration testing, reverse engineering, certificates, certifications, CompTIA">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Projects | rvid.eu">
+    <meta property="og:description" content="Projects | Page in production">
+    <!--<meta property="og:image" content="https://www.example.com/og-image.jpg">-->
+    <title>rvid | Portfolio - Cybersecurity, Linux, programming</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  </head>
+  <body>
+<!--#include virtual="/templates/navbar.html" -->
+  <h1>Page in construction</h1>
+  <p>This page is undergoing development. Please be patient.</p>
+  </body>
+</html>
